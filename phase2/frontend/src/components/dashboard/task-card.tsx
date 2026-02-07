@@ -1,6 +1,6 @@
 'use client';
 
-import { Task } from '@/src/lib/api-client';
+import { Task } from '@/lib/api-client';
 
 /**
  * TaskCard Component

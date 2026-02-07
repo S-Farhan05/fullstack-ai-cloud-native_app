@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { apiClient } from '@/src/lib/api-client';
+import { apiClient } from '@/lib/api-client';
 
 export default function RegisterForm() {
   const [email, setEmail] = useState('');
