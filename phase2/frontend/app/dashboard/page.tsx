@@ -2,9 +2,9 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { apiClient, Task } from '@/src/lib/api-client';
-import TaskCard from '@/src/components/dashboard/task-card';
-import TaskForm from '@/src/components/dashboard/task-form';
+import { apiClient, Task } from '@/lib/api-client';
+import TaskCard from '@/components/dashboard/task-card';
+import TaskForm from '@/components/dashboard/task-form';
 
 export default function DashboardPage() {
   const [tasks, setTasks] = useState<Task[]>([]);

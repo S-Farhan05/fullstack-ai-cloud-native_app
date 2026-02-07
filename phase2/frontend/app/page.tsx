@@ -1,10 +1,10 @@
-import Navbar from '@/src/components/landing/navbar';
-import Hero from '@/src/components/landing/hero';
-import FeatureCard from '@/src/components/landing/feature-card';
-import HowItWorks from '@/src/components/landing/how-it-works';
-import Benefits from '@/src/components/landing/benefits';
-import Stats from '@/src/components/landing/stats';
-import CTASection from '@/src/components/landing/cta-section';
+import Navbar from '@/components/landing/navbar';
+import Hero from '@/components/landing/hero';
+import FeatureCard from '@/components/landing/feature-card';
+import HowItWorks from '@/components/landing/how-it-works';
+import Benefits from '@/components/landing/benefits';
+import Stats from '@/components/landing/stats';
+import CTASection from '@/components/landing/cta-section';
 
 /**
  * Landing Page
